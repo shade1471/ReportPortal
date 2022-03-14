@@ -41,6 +41,11 @@
     implementation 'org.apache.logging.log4j:log4j-api:2.13.3'
     implementation 'org.apache.logging.log4j:log4j-core:2.13.3'
 ```
+5. В блоке test добавить:
+```
+testLogging.showStandardStreams = true
+systemProperty 'junit.jupiter.extensions.autodetection.enabled', true
+```
 
 ***Запуск тестов и просмотр их в ReportPortal***
 1. Запустить тесты в IDE
