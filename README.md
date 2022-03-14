@@ -1,7 +1,7 @@
 *****Инструкция по минимальной настройке и первому запуску ReportPortal*****
 
 ***Установка ReportPortal***
-1. Взять готовый проект для котором планируется интеграция Report Portal
+1. Взять готовый проект для которого планируется интеграция с Report Portal
 2. Имея установленный Docker Dеsktop, перейти по ссылке для скачивания или копирования [docker-compose](https://github.com/reportportal/reportportal/blob/master/docker-compose.yml).
 3. В ситуации если Docker на Windows, расскомитить подключение томов в docker-compose для postgresql. [Инструкция](https://reportportal.io/docs/Deploy-ReportPortal-with)
 ```
